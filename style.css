@@ -18,7 +18,7 @@ body {
    Header e Navegação
    ========================== */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #b084dc 100%);
     color: white;
     padding: 1rem 0;
     position: fixed;
@@ -27,6 +27,14 @@ header {
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+
+.hero-image{
+    display: block;
+    margin: 2rem auto;
+    width: 300px;
+    height: auto;
+}
+ 
 
 
 nav {
@@ -253,9 +261,7 @@ footer{
     font-weight: 500;
     color: #333;
     padding: 1rem;
-
 } 
-
 
 
 
